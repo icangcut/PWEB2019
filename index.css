@@ -1,0 +1,49 @@
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: #c8cbce;
+	color: rgb(25, 58, 1);
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: #fff;
+}
+
+.header {
+	padding: 20px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+
+.header .judul {
+	font-size: 100px;
+	font-weight: bold;
+}
+
+.header ul li {
+	font: 16px/28px arial, sans-serif;
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+.header a {
+	text-decoration: none;
+	color: rgb(25, 58, 2);
+	padding: 3px
+}
+
+.header a:hover {
+	background-color: #A9C297;
+	color: black;
+}
+
+.background {
+	height: 400px;
+	margin-top: -60px;
+	background-image: url(back.jpg);
+	background-size: cover;
+	background-position: 0 -115px;
+}
